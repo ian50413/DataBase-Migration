@@ -31,14 +31,14 @@ sic_dict={}
 
 #PRD
 #get oracle
-conn_oracle = cx_Oracle.connect("sic/dd0987^%$#@10.36.28.18:1521/SIC")
+conn_oracle = cx_Oracle.connect("*****************")
 
 #sqlserver info (PROD)
 DRIVER ='SQL Server'
-SERVER_NAME = 'TWTPEWADWCI01P.hq.intra.acer.com,50962'
-DATABASE_NAME = 'DMSCM'
-UID = 'SCM_OP'
-PWD = '454zdq$X'
+SERVER_NAME = '***'
+DATABASE_NAME = '***'
+UID = '***'
+PWD = '***'
 
 #get sqlserver
 #conn_string = f"""
